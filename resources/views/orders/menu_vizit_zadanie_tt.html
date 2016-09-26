@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="noindex, nofollow"/>
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Задание ТТ/Название фирмы/Название базы</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/my-css.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	
+		<div class="container">
+			<div class="row">
+			<!-- Хлебные крошки -->
+				<ol class="breadcrumb">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Маршруты</a></li>
+					<li><a href="#">Торговые точки</a></li>
+					<li><a href="#">Меню визита</a></li>
+					<li class="active">Задание ТТ</li>
+				</ol>
+			<!-- /.Хлебные крошки -->	
+			</div><!--/. row -->
+		
+			<div class="row">
+				<div class="alert alert-success my-text-center"><strong>Задание ТТ.</strong>(<strong>Антошка</strong> <em>Украина, Полтавская область, Горишние плавни, 23/11</em>)</div>
+
+				
+				<div>	
+					<div class="my-edit-tt"> <a href="" class="btn btn-info btn-lg my-width-100"><span class="glyphicon glyphicon-plus"></span> Добавить задание</a> </div>
+				<br>
+						<div class="my-hidden-edit-form-tt" style="display:none;">
+							<form action="#" method="post"  enctype="multipart/form-data">
+									<textarea class="form-control" rows="2" id="new_zadacha"></textarea>
+									<input type="hidden" name="id" value="1"><br>
+									<button type="submit" class="btn btn-success">Сохранить</button>
+							</form>
+						</div><!--/ .my-edit-tt -->							
+					<br>
+					<hr>
+				</div>					
+				
+
+				<form  action="#" method="post"  enctype="multipart/form-data">
+					<!-- Задача -->
+					<label for="dostupnost_tt" class="my-text-center">Текст задания</label>
+					<p>
+						<input type="checkbox" class="my-checkbox" id="dostupnost_tt" />
+						<label for="dostupnost_tt"></label>
+					</p>
+					
+					<br>
+
+					<div>	
+						<label for="text_field_id" class="my-text-center">Комментрарий</label>	
+						<textarea class="form-control" rows="2" id="text_field_id"></textarea>
+						<br>
+					</div>					
+					<hr>	
+					<!--/. Задача -->
+
+					<div class="btn-group my-width-100">
+						<a href="#" class="btn btn-default  btn-lg my-width-50">Назад</a>
+						<button type="submit" class="btn btn-success btn-lg my-width-50">Далее</button>
+					</div><!-- /.btn-group my-width-100-->
+				
+				</form>	
+
+			</div><!--/. row -->
+
+		</div><!--/. container -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/my-js.js"></script>
+	</body>
+</html>

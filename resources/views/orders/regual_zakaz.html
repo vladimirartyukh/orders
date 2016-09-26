@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="noindex, nofollow"/>
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Регулярные заказы/Название фирмы/Название базы</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/my-css.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	
+		<div class="container">
+			<div class="row">
+			<!-- Хлебные крошки -->
+				<ol class="breadcrumb">
+					<li><a href="#">Главная</a></li>
+					<li class="active">Регулярный заказ</li>
+				</ol>
+			<!--/. Хлебные крошки -->	
+			</div>
+			
+			<div class="row">
+				<div class="alert alert-success my-text-center">Регулярный заказ</div>			
+				<!-- Разделы -->
+				
+				<form action="#" method="post"  enctype="multipart/form-data">
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#1" >
+										ВВ Батон Молочний 400г
+									</a>
+								</h4>
+							</div><!--/. panel-heading -->	
+							<div id="1" class="panel-collapse collapse">
+								<div class="panel-body">
+									<div class="my-text-center"><strong>29 Вересня 10/24</strong></div>
+									<div>	
+										<label for="kol_idtt_idtovar" class="my-text-center">Количество</label>	
+										<input type="number"  name="kol_idtt_idtovar" value="3" class="required-entry my-width-100  input-lg" spellcheck="false"/>
+										<br>
+									</div>	
+
+									<div>	
+										<label for="user" class="my-text-center">Номер ходки</label>
+										<div class="form-group  my-width-100">
+											<select class="form-control  input-lg" id ="user">
+											  <option>1-я ходка</option>
+											  <option>2-я ходка</option>
+											  <option>3-я ходка</option>
+											</select>					
+										</div><!--/. form-group -->	
+									</div>	<hr>									
+								</div><!--/. panel-body -->
+							</div><!--/. panel-collapse collapse -->
+						</div><!--/. panel panel-default -->	
+					</div><!--/. #accordion -->
+					
+
+
+
+					
+					
+			</div><!--/. row -->
+			<!--/. Разделы -->
+		</div><!--/. container -->
+
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
